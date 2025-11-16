@@ -1,12 +1,9 @@
 import asyncio
 import logging
 
-from aiogram import F
-from aiogram import Bot, Dispatcher, types
-from aiogram.filters.command import Command
+from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from aiogram.fsm.storage.memory import MemoryStorage
 
 from config_reader import config
 from handlers import cmd_commands
